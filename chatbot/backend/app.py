@@ -5,7 +5,6 @@ import training
 
 
 app = flask.Flask(__name__)
-sample=["hi","i'm fine. how about yourself?","what school do you go to?"]
 i=-1
 @app.route('/ask',methods=['POST'])
 def index():
